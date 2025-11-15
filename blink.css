@@ -1,0 +1,13 @@
+/*
+ * NOTE: Only use either the CSS or the JS, not both.
+ *
+ */
+
+blink {
+  animation: __internal_blink 1500ms infinite steps(2, jump-none);
+}
+
+@keyframes __internal_blink {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
